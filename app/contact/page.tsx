@@ -102,7 +102,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                             <Label htmlFor="message" className="text-muted-foreground">Bericht</Label>
-                            <Textarea id="message" value={formData.message} onChange={handleChange} placeholder="Jouw bericht" className="h-24 text-lg border-border" />
+                            <Textarea id="message" value={formData.message} onChange={handleChange} placeholder="Jouw bericht" className="h-24 text-lg border-border resize-none" />
                         </div>
                         <Button type="submit" className="h-12 text-lg bg-primary text-primary-foreground hover:bg-accent transition duration-200">Verstuur bericht</Button>
                     </form>
