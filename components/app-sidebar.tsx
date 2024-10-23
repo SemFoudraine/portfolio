@@ -86,7 +86,7 @@ const data = {
       ],
     },
     {
-      name: "School",
+      name: "  School",
       emoji: "",
       pages: [
         {
