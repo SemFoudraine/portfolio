@@ -31,7 +31,7 @@ const data = {
       title: "Home",
       url: "/",
       icon: Home,
-      isActive: true,
+
     },
   ],
   navSecondary: [
@@ -47,7 +47,7 @@ const data = {
     },
     {
       title: "Contact",
-      url: "#",
+      url: "/contact",
       icon: MessageCircleQuestion,
     },
   ],
