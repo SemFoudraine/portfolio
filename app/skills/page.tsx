@@ -26,7 +26,7 @@ export default function Page() {
               <BreadcrumbList>
                 <BreadcrumbItem>
                   <BreadcrumbPage className="line-clamp-1">
-                    Welkom
+                    Skills
                   </BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
@@ -34,7 +34,7 @@ export default function Page() {
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 px-4 py-10">
-            Content hier page.tsx
+            Content hier skills/page.tsx
         </div>
       </SidebarInset>
     </SidebarProvider>

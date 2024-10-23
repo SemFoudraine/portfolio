@@ -32,7 +32,7 @@ export function NavWorkspaces({
 }) {
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>Workspaces</SidebarGroupLabel>
+      <SidebarGroupLabel>Projecten</SidebarGroupLabel>
       <SidebarGroupContent>
         <SidebarMenu>
           {workspaces.map((workspace) => (
@@ -53,7 +53,6 @@ export function NavWorkspaces({
                   </SidebarMenuAction>
                 </CollapsibleTrigger>
                 <SidebarMenuAction showOnHover>
-                  <Plus />
                 </SidebarMenuAction>
                 <CollapsibleContent>
                   <SidebarMenuSub>
@@ -74,8 +73,6 @@ export function NavWorkspaces({
           ))}
           <SidebarMenuItem>
             <SidebarMenuButton className="text-sidebar-foreground/70">
-              <MoreHorizontal />
-              <span>More</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
