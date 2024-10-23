@@ -88,6 +88,9 @@ export default function ContactPage() {
                         <p className="text-lg text-muted-foreground">
                             LinkedIn: <a href="https://www.linkedin.com/in/sem-foudraine-746a67252" className="text-accent hover:underline">www.linkedin.com/in/sem-foudraine-746a67252</a>
                         </p>
+                        <p className="text-lg text-muted-foreground">
+                            GitHub: <a href="https://github.com/SemFoudraine" className="text-accent hover:underline">https://github.com/SemFoudraine</a>
+                        </p>
                     </div>
                     <form className="space-y-4 w-full max-w-xl p-6 bg-card rounded-lg border border-border" onSubmit={handleSubmit}>
                         <div className="flex space-x-4">
