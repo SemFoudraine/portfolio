@@ -30,14 +30,14 @@ export default function ContactPage() {
 
     const [alert, setAlert] = useState({ message: "", type: "", visible: false })
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({
             ...formData,
             [e.target.id]: e.target.value
         })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
 
         emailjs.send(
