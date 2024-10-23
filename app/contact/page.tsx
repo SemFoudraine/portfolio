@@ -77,7 +77,7 @@ export default function ContactPage() {
                 </header>
                 <div className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-10">
                     {alert.visible && (
-                        <Alert variant={alert.type === "success" ? "success" : "error"} className="mb-4 max-w-md">
+                        <Alert variant={alert.type === "success" ? "default" : "destructive"} className="mb-4 max-w-md">
                             <AlertTitle>{alert.type === "success" ? "Succes!" : "Fout!"}</AlertTitle>
                             <AlertDescription>{alert.message}</AlertDescription>
                         </Alert>
