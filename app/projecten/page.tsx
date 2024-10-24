@@ -27,6 +27,8 @@ export default function Page() {
                 <BreadcrumbItem>
                   <BreadcrumbPage className="line-clamp-1">
                     Projecten
+                    admin@semfoudraine.com
+                    wachtwoord
                   </BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>

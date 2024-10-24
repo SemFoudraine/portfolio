@@ -42,7 +42,7 @@ const data = {
     },
     {
       title: "Projecten",
-      url: "#",
+      url: "/projecten",
       icon: Blocks,
     },
     {
@@ -75,31 +75,19 @@ const data = {
   ],
   workspaces: [
     {
-      name: "Prive",
+      name: "Stonks Pizza",
+      url: "/overmij",
       emoji: "",
-      pages: [
-        {
-          name: "Werkplanner",
-          url: "#",
-          emoji: "",
-        },
-      ],
     },
     {
-      name: "  School",
+      name: "Summa Move",
+      url: "/contact",
       emoji: "",
-      pages: [
-        {
-          name: "Stonks Pizza",
-          url: "#",
-          emoji: "",
-        },
-        {
-          name: "Summa Move",
-          url: "#",
-          emoji: "",
-        },
-      ],
+    },
+    {
+      name: "Werk Planner",
+      url: "/werkplanner",
+      emoji: "",
     },
   ],
 }
