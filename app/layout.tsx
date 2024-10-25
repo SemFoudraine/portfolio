@@ -2,20 +2,21 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { AppSidebar } from "@/components/app-sidebar"
+// import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+// import { AppSidebar } from "@/components/app-sidebar";
 
-function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <SidebarProvider>
-      <AppSidebar />
-      <main>
-        <SidebarTrigger />
-        {children}
-      </main>
-    </SidebarProvider>
-  )
-}
+// Verwijder de ongebruikte Layout functie
+// const Layout = ({ children }: { children: React.ReactNode }) => {
+//   return (
+//     <SidebarProvider>
+//       <AppSidebar />
+//       <main>
+//         <SidebarTrigger />
+//         {children}
+//       </main>
+//     </SidebarProvider>
+//   );
+// };
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

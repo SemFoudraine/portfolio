@@ -2,15 +2,15 @@
 
 import * as React from "react"
 import {
-  AudioWaveform,
+  // AudioWaveform,
   Blocks,
   Calendar,
-  Command,
+  // Command,
   Home,
   MessageCircleQuestion,
-  Settings2,
-  Sparkles,
-  Trash2,
+  // Settings2,
+  // Sparkles,
+  // Trash2,
 } from "lucide-react"
 
 import { NavFavorites } from "@/components/nav-favorites"
